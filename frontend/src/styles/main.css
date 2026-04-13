@@ -1,0 +1,103 @@
+/* Import modern font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Global styles */
+* {
+  transition: all 0.25s ease-in-out;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #F7FBF9;
+  color: #1F2937;
+}
+
+/* Navbar buttons */
+.nav-btn {
+  color: #1E8E5A;
+  font-weight: 500;
+}
+
+.nav-btn:hover {
+  transform: translateY(-2px);
+  color: #157347;
+}
+
+/* Hero buttons */
+.hero-btn {
+  background-color: #1E8E5A;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 10px 22px;
+  font-weight: 600;
+  border: none;
+}
+
+.hero-btn:hover {
+  transform: scale(1.05);
+  background-color: #157347;
+}
+
+/* Feature cards */
+.feature-card {
+  background-color: #ffffff;
+  border: 1px solid #E6F4EE;
+  border-radius: 14px;
+  box-shadow: 0 10px 20px rgba(30, 142, 90, 0.10);
+}
+
+.feature-card h3 {
+  color: #1E8E5A;
+  font-weight: 600;
+}
+
+.feature-card p {
+  color: #6B7280;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 35px rgba(30, 142, 90, 0.18);
+}
+
+/* Login card */
+.login-card {
+  width: 360px;
+  border-radius: 14px;
+  background-color: #ffffff;
+  box-shadow: 0 15px 30px rgba(30, 142, 90, 0.15);
+}
+
+/* Login button */
+.login-btn {
+  background-color: #1E8E5A;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+}
+
+.login-btn:hover {
+  transform: translateY(-2px);
+  background-color: #157347;
+}
+
+/* Dashboard buttons */
+.dashboard-btn {
+  background-color: #34C38F;
+  color: #ffffff;
+  border-radius: 10px;
+  font-weight: 600;
+  border: none;
+}
+
+.dashboard-btn:hover {
+  transform: scale(1.05);
+  background-color: #1E8E5A;
+}
+
+/* Footer (if any) */
+footer {
+  background-color: #0F5132;
+  color: #E6F4EE;
+}
